@@ -1,0 +1,22 @@
+# Site settings
+title: ScoutLink TechTeam
+email: techteam@scoutlink.net
+description: > # this means to ignore newlines until "baseurl:"
+  Thats the blog of ScoutLink TechTeam. From time to time we publish some background infos here
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://scoutlink.github.io" # the base hostname & protocol for your site
+twitter_username: SLink_TechTeam
+github_username:  scoutlink
+
+timezone: Europe/Berlin
+# Build settings
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
